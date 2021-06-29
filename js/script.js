@@ -16,7 +16,7 @@ const add = new Vue (
                     this.taskList.push(this.newTask);
                 }
                 this.newTask = '';
-                getFocus();
+                this.getFocus();
             },
             deleteTask: function(index) {
                 this.taskList.splice(index,1);
