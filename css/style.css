@@ -1,0 +1,31 @@
+img {
+    width: 100%;
+}
+
+.input-area {
+    width: 100%;
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(0, 252, 126);
+    box-shadow: 2px 3px 5px;
+    padding: 10px 35px;
+
+}
+section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.list {
+    background-color: rgb(0, 252, 126);
+    border-radius: 10px;
+}
+.list li {
+    padding: 12px;
+    border-bottom: 3px solid white;
+}
+.list li:last-child {
+    border-bottom: none;
+}

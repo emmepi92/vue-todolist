@@ -12,7 +12,7 @@ const add = new Vue (
         },
         methods: {
             addTask: function () {
-                if (this.newTask !== '') {
+                if (this.newTask.trim() !== '') {
                     this.taskList.push(this.newTask);
                 }
                 this.newTask = '';
